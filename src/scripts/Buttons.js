@@ -1,4 +1,5 @@
 import { RequestForm } from "./RequestForm.js"
+import { DisplayRequests } from "./RequestDisplay.js"
 
 export const Buttons = () => {
     return `
@@ -8,5 +9,7 @@ export const Buttons = () => {
     <article class="requestForm">
         ${RequestForm()}
         </article>
+    <article class="displayRequest">
+        ${DisplayRequests()}
     `
 }

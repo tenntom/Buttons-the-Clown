@@ -46,7 +46,7 @@ export const sendRequest = (userRequest) => {
 
 //ask the API to delete a request.
 export const deleteRequest = (id) => {
-    return fetch(`${apiLink}/requests/${id}`, {method: "DELETE"})
+    return fetch(`${apiLink}/requests/${id}`, { method: "DELETE" })
     .then(
         () => {
             mainContainer.dispatchEvent(new CustomEvent("stateChanged"))

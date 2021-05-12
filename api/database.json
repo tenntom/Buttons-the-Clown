@@ -6,7 +6,7 @@
       "childName": "Billy",
       "childrenNumber": 15,
       "partyAddress": "100 Main Street",
-      "date": "2021-05-15",
+      "partyDate": "2021-05-15",
       "partyLength": 4,
       "clownId": 2
     },
@@ -16,7 +16,7 @@
       "childName": "Willie",
       "childrenNumber": 12,
       "partyAddress": "200 Main Street",
-      "date": "2021-05-22",
+      "partyDate": "2021-05-22",
       "partyLength": 4,
       "clownId": 1
     },
